@@ -1,0 +1,1 @@
+include ':app', ':codegen-annotations', ':codegen-processor'

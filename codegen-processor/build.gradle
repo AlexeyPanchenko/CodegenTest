@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+dependencies {
+    implementation project (':codegen-annotations')
+    implementation 'com.squareup:javapoet:1.11.1'
+}
